@@ -6,7 +6,7 @@ namespace TASK3.Game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
