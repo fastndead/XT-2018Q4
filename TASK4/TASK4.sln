@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TASK4.Lost", "TASK4.Lost\TASK4.Lost.csproj", "{CB5E8FFE-466A-4603-8E08-88690A85F972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TASK4.WordFrequency", "TASK4.WordFrequency\TASK4.WordFrequency.csproj", "{73045094-FBF8-4161-988B-19560B9C92DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TASK4.DynamicArray", "TASK4.DynamicArray\TASK4.DynamicArray.csproj", "{04B2FC0D-6791-4D5C-A212-FB67794AED0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB5E8FFE-466A-4603-8E08-88690A85F972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5E8FFE-466A-4603-8E08-88690A85F972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5E8FFE-466A-4603-8E08-88690A85F972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5E8FFE-466A-4603-8E08-88690A85F972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73045094-FBF8-4161-988B-19560B9C92DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73045094-FBF8-4161-988B-19560B9C92DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73045094-FBF8-4161-988B-19560B9C92DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73045094-FBF8-4161-988B-19560B9C92DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B2FC0D-6791-4D5C-A212-FB67794AED0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B2FC0D-6791-4D5C-A212-FB67794AED0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B2FC0D-6791-4D5C-A212-FB67794AED0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B2FC0D-6791-4D5C-A212-FB67794AED0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
