@@ -24,19 +24,30 @@ namespace TASK4.Lost
                 throw;
             }
             var people = new List<string>();
-            for (int i = 0; i < n; i++)
+            for (int k = 0; k < n; k++)
             {
-                people.Add("SampleName" + (i+1));
+                people.Add("SampleName" + (k+1));
             }
+
+
+            var i = 1;  
             while (people.Count != 1)
             {
-                var i = 1;
-                while (i < people.Count)
+                people.RemoveAt(i);
+                
+                if (i == people.Count)
                 {
-                    people.RemoveAt(i);
-                    i++;
+                    i = 1;
+                    continue;
                 }
+                if (i == people.Count - 1)
+                {
+                    i = 0;
+                    continue;
+                }
+                i++;
             }
+            
             Console.WriteLine("Only person remained in the array: {0}", people[0]);
         }
     }
